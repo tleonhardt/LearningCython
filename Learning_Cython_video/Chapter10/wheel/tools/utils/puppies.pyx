@@ -1,0 +1,2 @@
+cpdef sound():
+    return 'Bark!'

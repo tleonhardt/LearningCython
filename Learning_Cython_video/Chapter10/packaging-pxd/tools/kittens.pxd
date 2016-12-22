@@ -1,0 +1,2 @@
+# kittens.pxd
+cpdef sound()
