@@ -18,7 +18,5 @@ cpdef double tot(double[:] taxable_incomes):
     cdef int i, n
     n = taxable_incomes.shape[0]
     for i in range(n):
-        total_tax += tax_table(
-                taxable_incomes[i])
+        total_tax += tax_table(taxable_incomes[i])
     return total_tax
-

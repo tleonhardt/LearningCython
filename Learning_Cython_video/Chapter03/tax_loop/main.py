@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 # Taxable income of 11 million people
 
