@@ -1,5 +1,6 @@
-
-# Taxable income of 11 million people
+#!/usr/bin/env python
+""" Calculate taxable income of 11 million people
+"""
 
 import numpy
 taxable_incomes = numpy.random.uniform(

@@ -1,4 +1,5 @@
-# Tax table for Australia for 2015/2016
+""" Tax table for Australia for 2015/2016
+"""
 
 def tax_table(amount):
     if amount <= 18200:
