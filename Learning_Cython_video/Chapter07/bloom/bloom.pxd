@@ -1,4 +1,4 @@
-cdef extern from "../bloom.h":
+cdef extern from "bloom.h":
     struct bloom:
         pass
     int bloom_init(bloom * bloom, int entries, double error)
